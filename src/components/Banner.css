@@ -1,0 +1,130 @@
+/* src/components/Header.css */
+.header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  background-attachment: fixed;
+}
+
+.header-content {
+  text-align: left;
+}
+
+.herosqr{
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -80px;
+  opacity: 0.2;
+}
+
+.code-tag {
+  font-family: monospace;
+  font-size: 50px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.blinking-text {
+   animation:1s blinker linear infinite;
+    -webkit-animation:1.5s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+    color: #fff;
+}
+
+.heroh1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ffdd40;
+}
+
+.heroh2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.summary {
+  margin-top: 50px;
+  font-size: 20px;
+  max-width: 450px;
+  line-height: 1.6;
+}
+
+.resume{
+  padding: 20px 50px;
+  background-color: #fff;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 25px;
+  opacity: 0.6;
+  color: #000;
+  font-size: 20px;
+}
+
+.ux-glow {
+  font-size: 80px;
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange, yellow, red, green, orange, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 4s infinite linear;
+  margin-top: 30px;
+  text-align: right;
+  margin-right: -180px;
+}
+.photo{
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  border: 10px #aacadf solid;
+  height: 380px;
+  width: 380px;
+  border-radius: 2000px;
+
+}
+
+@-moz-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+ }
+
+@keyframes glow {
+  100% {
+    filter: brightness(0.5);
+  }
+  50% {
+    filter: brightness(2);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}

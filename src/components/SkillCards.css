@@ -1,0 +1,57 @@
+/* src/components/SkillCards.css */
+.skill-section {
+  margin-top: -100px;
+  padding: 0 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.skill-card {
+  width: 300px;
+  height: 300px;
+  color: white;
+  padding:  120px 30px 30px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  flex-direction: column;
+text-align: right;
+  z-index: 999;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+}
+
+.skill-image{
+  height: 30px;
+  width: 30px;
+  text-align: right;
+}
+
+.skill-title {
+  font-size: 24px;
+  text-align: right;
+  line-height: 1.4;
+}
+
+.skill-role {
+  font-size: 34px;
+  text-align: right;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-card {
+    width: 100%;
+    max-width: 90%;
+  }
+}

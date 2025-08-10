@@ -1,0 +1,115 @@
+/* src/components/About.css */
+.about-section {
+  margin-top: 150px;
+  padding: 80px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.about-left {
+  flex: 1;
+  min-width: 150px;
+  text-align: left;
+  position: relative;
+}
+.aboutsqr{
+  height: 250px;
+  width: 250px;
+  background-color: #aacadf;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: -115px;
+  opacity: 0.2;
+}
+.about-label {
+  font-size: 12px;
+  color: #0c2e6b;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.about-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  color: #0c2e6b;
+}
+.about-years{
+  font-size: 70px;
+  font-weight: bold;
+  color: #f2b632;
+  position: absolute;
+  bottom: 0;
+}
+.years{
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  bottom: 20px;
+  left: 85px;
+  width: 100px;
+}
+
+.about-right {
+  flex: 2;
+  min-width: 300px;
+  text-align: left;
+  margin-top: 35px;
+}
+
+.about-right p {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.quote-container {
+  text-align: left;
+  max-width: 1000px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.quote-label {
+  font-size: 16px;
+  color: #90b7d0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.quote {
+  font-size: 60px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 auto;
+  color: #222;
+}
+
+.quote-author {
+  display: block;
+  margin-top: 10px;
+  font-size:20px;
+  color: #555;
+  font-weight: bold;
+  text-align: right;
+}
+.quotesqr{
+  height: 250px;
+  width: 250px;
+  background-color: #aacadf;
+  position: absolute;
+  right: -50px;
+  opacity: 0.2;
+}
