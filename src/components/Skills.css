@@ -4,6 +4,7 @@
   padding: 220px 20px 120px 20px;
   background-size: cover;
   background-position: center;
+    position: relative;
   font-family: Arial, sans-serif;
   background-attachment: fixed;
 }

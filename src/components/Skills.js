@@ -28,7 +28,7 @@ const Skills = () => {
   const [ref, visible] = useReveal();
   return (
     <section ref={ref}
-      className={`skills-section reveal-section ${visible ? "show" : ""}`}  style={{ backgroundImage: `url(${background})` }}>
+      className={`skills-section `}  style={{ backgroundImage: `url(${background})` }}>
       <div className="skills-container">
         <div className="row">
           <div className="col-lg-5 col-md-5 col-sm-12">
