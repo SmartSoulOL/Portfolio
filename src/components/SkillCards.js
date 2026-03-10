@@ -12,7 +12,7 @@ const cards = [
     color: "#ce1f40", 
   },
   {
-    title: "Front-end",
+    title: "Full Stack",
     role:"Developer",
     icon: icon2,
     color: "#F2B632", 

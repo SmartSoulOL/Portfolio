@@ -20,7 +20,7 @@ const skillGroups = [
   },
   {
     title: "Design Tools",
-    skills: ["ADOBE PS", "ADOBE AI", "ADOBE XD", "SKETCH"],
+    skills: ["ADOBE PS", "ADOBE AI", "ADOBE XD", "SKETCH", "FIGMA"],
   },
 ];
 

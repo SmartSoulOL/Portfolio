@@ -14,12 +14,12 @@ const About = () => {
           <div className="aboutsqr"></div>
           <div className="about-label">WHO I AM</div>
           <h2 className="about-title">ABOUT</h2>
-          <h2 className="about-years">13</h2><span className="years">Years of Experience</span>
+          <h2 className="about-years">14</h2><span className="years">Years of Experience</span>
         </div>
 
         <div className="about-right">
           <p>
-            I’m an experienced Website Developer and UX designer, specialising
+            I’m an experienced Full Stack Engineer and UX designer, specialising
             in Front-End Development and online system or mobile app UI/UX
             design.
           </p>
@@ -29,7 +29,7 @@ const About = () => {
             distinctive blend of technical expertise and creative vision.
           </p>
           <p>
-            Over the past 13 years, I have
+            Over the past 14 years, I have
             accumulated extensive commercial experience, developed professional
             web apps and delivered impactful B2C solutions.
           </p>
